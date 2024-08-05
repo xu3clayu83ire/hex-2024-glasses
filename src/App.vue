@@ -1,9 +1,13 @@
 <script setup>
-import HelloWorld from './views/HelloWorld.vue'
+import { RouterView } from 'vue-router';
+import Header from "./components/header.vue";
+import Footer from "./components/footer.vue";
 </script>
 
 <template>
-  <HelloWorld msg="Hello World" />
+  <Header />
+  <RouterView />
+  <Footer />
 </template>
 
 <style scoped></style>

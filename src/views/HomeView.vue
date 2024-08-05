@@ -9,7 +9,7 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1 class="text-primary">{{ msg }}</h1>
+  <h1 class="text-primary">Hello World</h1>
 
   
 </template>
