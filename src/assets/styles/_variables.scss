@@ -372,7 +372,7 @@ $escaped-characters: (
 // Quickly modify global styling by enabling or disabling optional features.
 
 $enable-caret: true !default;
-$enable-rounded: true !default;
+$enable-rounded: false !default;
 $enable-shadows: false !default;
 $enable-gradients: false !default;
 $enable-transitions: true !default;
@@ -679,10 +679,15 @@ $h6-font-size: $font-size-base !default;
 // scss-docs-start font-sizes
 $font-sizes: (
   1: $h1-font-size,
+  //40px
   2: $h2-font-size,
+  //32px
   3: $h3-font-size,
+  //28px
   4: $h4-font-size,
+  //24px
   5: $h5-font-size,
+  //20px
   6: $h6-font-size) !default;
 // scss-docs-end font-sizes
 

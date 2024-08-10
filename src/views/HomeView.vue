@@ -1,19 +1,17 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from "vue";
+import Banner from "@/components/Home/banner.vue";
 
 defineProps({
   msg: String,
-})
+});
 
-const count = ref(0)
+const count = ref(0);
 </script>
 
 <template>
-  <h1 class="text-primary">Hello World</h1>
-
-  
+  <Banner />
 </template>
 
 <style scoped>
-
 </style>
