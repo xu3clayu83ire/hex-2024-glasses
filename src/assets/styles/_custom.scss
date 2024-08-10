@@ -16,10 +16,6 @@ ol {
     margin-bottom: 0;
 }
 
-img {
-    display: block;
-}
-
 h1,
 h2,
 h3,
@@ -31,4 +27,8 @@ p {
 }
 
 
+
 /* 工具類 */
+.img-block {
+    display: block;
+}
