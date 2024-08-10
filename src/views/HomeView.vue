@@ -7,11 +7,6 @@
   import Recommend from "@/components/Home/recommend.vue";
   import Conntact from "@/components/Home/conntact.vue";
 
-  defineProps({
-    msg: String,
-  });
-
-  const count = ref(0);
 </script>
 
 <template>

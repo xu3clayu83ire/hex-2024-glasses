@@ -4,14 +4,20 @@
             <div class="row d-flex justify-content-between align-items-center">
                 <div class="col-12 col-sm-2">
                     <div class="gs-nav-img py-4 px-4 px-sm-0">
-                        <img src="../assets/images/logo-white.png" width="80" alt="">
+                        <RouterLink class="navbar-brand" :to="{ name: 'index' }">
+                            <img src="../assets/images/logo-white.png" width="80" alt="">
+                        </RouterLink>
                     </div>
                 </div>
                 <div class="col">
                     <div class="gs-nav-list">
                         <ul class="d-flex">
                             <li><a href="">系列鏡框</a></li>
-                            <li><a href="">門市據點</a></li>
+                            <li>
+                                <RouterLink class="navbar-brand" :to="{ name: 'location' }">
+                                    門市據點
+                                </RouterLink>
+                            </li>
                         </ul>
                         <ul class="d-flex">
                             <li><a href="">部落格</a></li>
@@ -26,7 +32,7 @@
 </template>
 
 <script setup>
-
+    import { RouterLink } from 'vue-router'
 </script>
 
 <style scoped>
