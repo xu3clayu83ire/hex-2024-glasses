@@ -16,7 +16,7 @@
                         </div>
                         <div class="mb-4">
                             <label for="inputPhone" class="form-label">聯絡電話</label>
-                            <input type="text" class="form-control" id="inputPhone" placeholder="0912-345-678">
+                            <input type="tel" class="form-control" id="inputPhone" placeholder="0912-345-678">
                         </div>
                         <div class="mb-4">
                             <label for="inputEmail" class="form-label">電子郵件</label>
