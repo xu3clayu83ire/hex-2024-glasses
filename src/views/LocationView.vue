@@ -25,29 +25,29 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                            <div class="card-header bg-white fs-4">
+                            <h2 class="card-header bg-white fs-4">
                                 台北中山旗艦店
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text fs-5 d-flex align-items-center mb-2">
+                            </h2>
+                            <ul class="card-body">
+                                <li class="card-text fs-5 d-flex align-items-center mb-2">
                                     <span class="material-icons-outlined fs-5 me-2">
                                         call
                                     </span>
                                     <span>電話：(02)000-1234</span>
-                                </p>
-                                <p class="card-text fs-5 d-flex align-items-center mb-2">
+                                </li>
+                                <li class="card-text fs-5 d-flex align-items-center mb-2">
                                     <span class="material-icons-outlined fs-5 me-2">
                                         schedule
                                     </span>
                                     <span>營業時間：10:00-21:00</span>
-                                </p>
-                                <p class="card-text fs-5 d-flex align-items-start">
+                                </li>
+                                <li class="card-text fs-5 d-flex align-items-start">
                                     <span class="material-icons-outlined me-2">
                                         location_on
                                     </span>
                                     <span class="d-inline-block">地址：台北市中山區南京東路25巷2-1號</span>
-                                </p>
-                            </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
