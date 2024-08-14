@@ -5,9 +5,9 @@
                 顧客推薦
             </h2>
             <div class="row g-6">
-                <div v-for="data in datas" :key="data.id" class="col-md-6 col-lg-3 d-flex justify-content-center">
+                <ul v-for="data in datas" :key="data.id" class="col-md-6 col-lg-3 d-flex justify-content-center">
                     <!---->
-                    <div class="recommend-card card rounded-1 shadow">
+                    <li class="recommend-card card rounded-1 shadow">
                         <img :src="data.imageUrl" :alt="data.title">
                         <div class="card-body">
                             <div class="d-flex flex-column h-100">
@@ -20,9 +20,9 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </li>
                     <!---->
-                </div>
+                </ul>
             </div>
         </div>
     </div>

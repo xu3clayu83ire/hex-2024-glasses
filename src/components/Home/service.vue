@@ -5,9 +5,9 @@
         用專業的心，做專業的事
       </h2>
       <div class="row g-6">
-        <div v-for="data in datas" :key="data.id" class="col-md-6 col-lg-3">
+        <ul v-for="data in datas" :key="data.id" class="col-md-6 col-lg-3">
           <!---->
-          <div class="service-card text-center">
+          <li class="service-card text-center">
             <img :src="data.imageUrl" width="83" :alt="data.title" />
             <p class="fs-4 mt-6 mb-2 text-gs-red-900 fw-bold">
               {{ data.title }}
@@ -15,9 +15,9 @@
             <p class="text-start">
               {{ data.description }}
             </p>
-          </div>
+          </li>
           <!---->
-        </div>
+        </ul>
       </div>
     </div>
   </div>

@@ -5,16 +5,16 @@
                 經典系列鏡框
             </h2>
             <div class="row g-6">
-                <div v-for="data in datas" :key="data.id" class="col-lg-4">
+                <ul v-for="data in datas" :key="data.id" class="col-lg-4">
                     <!---->
-                    <div class="classic-card bg-transparent text-center">
+                    <li class="classic-card bg-transparent text-center">
                         <img :src="data.imageUrl" :alt="data.title" />
                         <p class="mt-2 text-primary fw-bold fst-italic">
                             {{ data.title }}
                         </p>
-                    </div>
+                    </li>
                     <!---->
-                </div>
+                </ul>
             </div>
         </div>
     </div>

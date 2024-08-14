@@ -5,17 +5,17 @@
                 聯名設計鏡框
             </h2>
             <div class="g-6 g-lg-0 row">
-                <div v-for="data in datas" :key="data.id" class="col-lg-6">
+                <ul v-for="data in datas" :key="data.id" class="col-lg-6">
                     <!---->
-                    <div class="text-center">
+                    <li class="text-center">
                         <img :src="data.imageUrl_sm" class="d-md-none img-fluid" :alt="data.title" />
                         <img :src="data.imageUrl" class="d-none d-md-inline-block img-fluid" :alt="data.title" />
                         <p class="co-branding-text py-2 text-primary fw-bold fst-italic bg-white d-lg-none">
                             {{ data.title }}
                         </p>
-                    </div>
+                    </li>
                     <!---->
-                </div>
+                </ul>
             </div>
             <div class="row g-0 bg-white">
                 <div v-for="data in datas" :key="data.id" class="col-lg-6">
