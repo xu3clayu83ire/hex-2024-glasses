@@ -11,6 +11,7 @@ npm run dev
     npm i vue-router
     npm i material-icons
     ~~npm i --save bootstrap @popperjs/core~~
+    npm install --save aos@next
 
 //devDependencies
     npm i sass --save-dev
