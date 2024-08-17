@@ -1,9 +1,9 @@
 <template>
     <header class="gs-nav bg-primary">
-        <div class="container">
-            <div class="row d-flex justify-content-between align-items-center">
+        <div class="container px-0 px-sm-3">
+            <div class="row d-flex justify-content-between align-items-center gx-0 gx-sm-3">
                 <div class="col-12 col-md-2">
-                    <div class="gs-nav-img py-4 px-4 px-sm-0">
+                    <div class="gs-nav-img py-4 ps-4 ps-sm-0">
                         <RouterLink class="navbar-brand" :to="{ name: 'index' }">
                             <img src="../assets/images/logo-white.png" width="80" alt="">
                         </RouterLink>
@@ -43,7 +43,7 @@
 
     .gs-nav-list li>a {
         color: #fff;
-        font-size: 20px;
+        font-size: 16px;
         white-space: nowrap;
         display: block;
         padding: 12px 0;
@@ -62,6 +62,10 @@
             border: none;
             padding: 0;
             text-align: start;
+        }
+
+        .gs-nav-list li>a {
+            font-size: 20px;
         }
 
         .gs-nav-list li:not(:last-child) {
