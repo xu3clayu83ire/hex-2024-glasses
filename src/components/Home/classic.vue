@@ -1,6 +1,6 @@
 <template>
     <div class="classic">
-        <div class="container py-9 py-md-12">
+        <div data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000" class="container py-9 py-md-12">
             <h2 class="text-gs-red-900 fw-bold text-center mb-6 mb-md-10">
                 經典系列鏡框
             </h2>

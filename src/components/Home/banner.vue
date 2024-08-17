@@ -2,7 +2,8 @@
     <div class="banner banner-bg-img">
         <div class="container align-items-center justify-content-end d-flex h-100">
             <!---->
-            <div class="banner-text text-gs-red-900 text-end">
+            <div data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000"
+                class="banner-text text-gs-red-900 text-end">
                 <p>Promise-Desert 2020 早春系列</p>
                 <h1 class="fw-bold mb-2 mb-md-1">看得清，才能看得遠</h1>
                 <button class="btn btn-primary fs-5">立即購買</button>

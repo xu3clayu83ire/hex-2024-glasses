@@ -76,4 +76,18 @@
             margin-left: 4rem;
         }
     }
+
+    .gs-nav-list li>a::after {
+        content: " ";
+        display: block;
+        width: 0%;
+        height: 3px;
+        background-color: #fff;
+        transition: .2s;
+        margin-top: 4px;
+    }
+
+    .gs-nav-list li>a:hover::after {
+        width: 100%;
+    }
 </style>
